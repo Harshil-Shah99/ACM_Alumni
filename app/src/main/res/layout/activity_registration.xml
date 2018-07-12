@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Registration">
+
+    <TextView
+        android:id="@+id/dpSelector_textView"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="77dp"
+        android:background="@drawable/grey_circle"
+        android:gravity="center"
+        android:text="+"
+        android:textColor="#F1F2F2"
+        android:textSize="32dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dpSelector_textView"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="48dp"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/name_editText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Name"
+            android:padding="8dp"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/email_editText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+            android:padding="8dp"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/phone_editText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Phone No."
+            android:padding="8dp"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/wrkplce_editText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Present Workplace"
+            android:padding="8dp"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/poy_editText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Pass out Year"
+            android:padding="8dp"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/signup_button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="36dp"
+            android:background="#F9AA33"
+            android:paddingBottom="8dp"
+            android:paddingEnd="36sp"
+            android:paddingStart="36sp"
+            android:paddingTop="8dp"
+            android:text="@string/sign_up"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp" />
+
+    </LinearLayout>
+
+</RelativeLayout>
